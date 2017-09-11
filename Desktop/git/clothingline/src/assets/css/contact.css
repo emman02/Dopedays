@@ -1,0 +1,29 @@
+.title {
+  background-color: #111111;
+  color: white; }
+
+.contact-header {
+  padding-top: 35px; }
+  .contact-header h1 {
+    position: relative;
+    text-align: center; }
+    .contact-header h1 span {
+      background: #fff;
+      padding: 0 15px;
+      position: relative;
+      z-index: 1; }
+  .contact-header h1:before {
+    background: black;
+    content: "";
+    display: block;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    width: 100%; }
+  .contact-header h1:before {
+    left: 0; }
+
+textarea {
+  resize: none; }
+
+/*# sourceMappingURL=contact.css.map */

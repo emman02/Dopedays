@@ -1,0 +1,38 @@
+.about-content {
+    margin: 0px 25px 0px 25px;
+    padding-top: 25px;
+    h2 {
+        position: relative;
+        text-align: center;
+        span {
+            background: #fff;
+            padding: 0 15px;
+            position: relative;
+            z-index: 1;
+        }
+    }
+    h2:before {
+        background: black;
+        content: "";
+        display: block;
+        height: 1px;
+        position: absolute;
+        margin: 0% 25%;
+        top: 50%;
+        width: 50%;
+    }
+    h2:before {
+        left: 0;
+    }
+    p {
+        font-size: 20px;
+        text-indent: 50px;
+    }
+}
+
+.team {
+    @extend .about-content;
+    img {
+        padding: 10px;
+    }
+}

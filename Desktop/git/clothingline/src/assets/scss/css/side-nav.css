@@ -1,0 +1,30 @@
+.side-navbar-fix ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 19%;
+  background-color: #111111;
+  position: fixed;
+  height: 100%;
+  overflow: auto; }
+  .side-navbar-fix ul .fi-magnifying-glass {
+    font-size: 15px;
+    color: white; }
+.side-navbar-fix li a {
+  display: block;
+  color: #C6C6C6;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: 15px; }
+.side-navbar-fix li a:hover:not(.active) {
+  background-color: #555;
+  color: white; }
+
+.content {
+  margin-left: 17%;
+  padding-left: 27px;
+  height: 100%; }
+
+/*# sourceMappingURL=side-nav.css.map */
